@@ -5,6 +5,6 @@
 @endsetup
 
 @task('deploy')
-    cd $path
+    cd {{ $path }}
     git pull origin master
 @endtask
